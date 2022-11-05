@@ -1,9 +1,9 @@
 /* Custom properties/variables  */
 :root {
-    --main-white: #D5D8DD;
-    --main-red: #5CA2BE;
-    --main-blue: #135487;
-    --main-gray: #2A4353;
+    --main-text: #D5D8DD;
+    --main-primary: #5CA2BE;
+    --main-secondary: #135487;
+    --main-background: #2A4353;
   }
   
   /* Base reset */
@@ -37,7 +37,7 @@
     font-size: 1.8rem; /* 18px */
     font-weight: 400;
     line-height: 1.4;
-    color: var(--main-white);
+    color: var(--main-text);
   }
   
   h1,
@@ -61,7 +61,7 @@
   
   a {
     text-decoration: none;
-    color: var(--main-white);
+    color: var(--main-text);
   }
   
   img {
@@ -73,7 +73,7 @@
   
   .nav {
     overflow: hidden;
-    background-color: var(--main-red);
+    background-color: var(--main-primary);
     position: fixed;
     top: 0;
     width: 100%;
@@ -82,7 +82,7 @@
   .nav a {
     float: right;
     display: block;
-    color: var(--main-white);
+    color: var(--main-text);
     text-align: center;
     padding: 15px 18px;
     text-decoration: none;
@@ -90,7 +90,7 @@
   }
   
   .nav a:hover {
-    color: var(--main-blue);
+    color: var(--main-secondary);
   }
   
   .container {
@@ -116,7 +116,7 @@
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    color: var(--main-red);
+    color: var(--main-primary);
   }
 
   /* Projects section */
@@ -124,13 +124,13 @@
   .projects {
     text-align: center;
     padding: 10rem 2rem;
-    background: var(--main-blue);
+    background: var(--main-secondary);
   }
   
   .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid var(--main-white);
+    border-bottom: 0.2rem solid var(--main-text);
   }
   
   @media (max-width: 28.75em) {
@@ -162,7 +162,7 @@
     width: 100%;
     height: 80vh;
     padding: 0 2rem;
-    background: var(--main-gray);
+    background: var(--main-background);
   }
   
   .contact-section-header > h2 {
