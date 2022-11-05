@@ -80,7 +80,7 @@
   }
   
   .nav a {
-    float: left;
+    float: right;
     display: block;
     color: var(--main-white);
     text-align: center;
