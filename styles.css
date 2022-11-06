@@ -77,10 +77,11 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
   }
   
   .nav a {
-    float: right;
+    float: left;
     display: block;
     color: var(--main-text);
     text-align: center;
@@ -119,6 +120,27 @@
     color: var(--main-primary);
   }
 
+  .custom-shape-divider-bottom-1667748560 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1667748560 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 137px;
+}
+
+.custom-shape-divider-bottom-1667748560 .shape-fill {
+    fill: #135487;
+}
+
   /* Projects section */
   
   .projects {
@@ -139,6 +161,7 @@
     }
   }
 
+  
   /*Projects grid */
 
   .projects-grid {
@@ -198,5 +221,7 @@
     transform: translateY(8px);
   }
 
+
+  
   /* Footer */
   
